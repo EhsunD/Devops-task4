@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  manager:
+    image: docker:dind
+    privileged: true
+      #ports:
+      #  - "2377:2377"
+        # volumes:
+        #   - /var/run/dind.sock:/var/run/docker.sock
+        #  environment:
+        #    - DOCKER_TLS_CERTDIR=""
+
+  worker1:
+    image: docker:dind
+    privileged: true
+      # volumes:
+      #   - /var/run/dind.sock:/var/run/docker.sock
+      # environment:
+      #   - DOCKER_TLS_CERTDIR=""
+
+  worker2:
+    image: docker:dind
+    privileged: true
+      # volumes:
+      #   - /var/run/dind.sock:/var/run/docker.sock
+      # environment:
+      #   - DOCKER_TLS_CERTDIR=""
+
+  worker3:
+    image: docker:dind
+    privileged: true
+      # volumes:
+      #   - /var/run/dind.sock:/var/run/docker.sock
+      # environment:
+      #   - DOCKER_TLS_CERTDIR=""
