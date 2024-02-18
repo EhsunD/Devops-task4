@@ -1,5 +1,5 @@
 # Devops-task4
-This task is a introduction to Ddocker Swarm.
+This tasks is a introduction to Ddocker Swarm.
 
 # Step1:
 Deploy a 3-node Docker Swarm cluster using Docker in Docker (DinD)
